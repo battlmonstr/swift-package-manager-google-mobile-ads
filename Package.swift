@@ -42,7 +42,6 @@ let package = Package(
       name: "GoogleMobileAdsTarget",
       dependencies: [
         .target(name: "GoogleMobileAds"),
-        .product(name: "GoogleAppMeasurement", package: "GoogleAppMeasurement"),
         .product(name: "GoogleUserMessagingPlatform", package: "GoogleUserMessagingPlatform"),
       ],
       path: "GoogleMobileAdsTarget"
